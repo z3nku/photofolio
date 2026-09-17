@@ -1,0 +1,39 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+    body {
+        @apply bg-cream text-ink font-sans antialiased;
+    }
+}
+
+/* Custom component classes we'll reuse */
+@layer components {
+    /* Big bold headline style */
+    .display-headline {
+        @apply font-display uppercase leading-none tracking-wide;
+    }
+
+    /* Chunky CTA button */
+    .btn-lime {
+        @apply inline-block bg-lime text-ink font-display uppercase tracking-widest 
+               px-8 py-4 text-xl hover:bg-ink hover:text-lime transition-colors 
+               duration-200;
+    }
+
+    /* Outline button for secondary actions */
+    .btn-outline {
+        @apply inline-block border-2 border-ink text-ink font-display uppercase 
+               tracking-widest px-8 py-4 text-xl hover:bg-ink hover:text-cream 
+               transition-colors duration-200;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
