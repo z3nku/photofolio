@@ -49,7 +49,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
                 
                 {{-- Photos Card --}}
-                <a href="{{  route('portfolio.photos') }}" class="group block">
+                <a href="{{  route('portofolio.photos') }}" class="group block">
                     <div class="bg-white p-3 shadow-lg transform transition-transform duration-300 group-hover:-rotate-1 group-hover:scale-[1.02]">
                         {{-- TODO: Replace with actual photo --}}
                         <img 
@@ -69,7 +69,7 @@
                 </a>
 
                 {{-- Films Card --}}
-                <a href="{{  route('portfolio.films') }}" class="group block">
+                <a href="{{  route('portofolio.films') }}" class="group block">
                     <div class="bg-white p-3 shadow-lg transform transition-transform duration-300 group-hover:rotate-1 group-hover:scale-[1.02]">
                         {{-- TODO: Replace with actual film still --}}
                         <img 

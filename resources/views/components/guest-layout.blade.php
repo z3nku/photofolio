@@ -8,16 +8,16 @@
     <title>{{ config('app.name', 'Photographer') }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
+</head>KUBIK Creative
 <body class="min-h-screen flex flex-col">
 
     <nav class="sticky top-0 z-50 bg-cream/80 backdrop-blur-sm border-b border-bone">
         <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" class="font-display text-2xl uppercase tracking-widest hover:text-lime transition-colors">
-                STUDIO NAME
+                KUBIK Creative
             </a>
             <div class="hidden md:flex items-center gap-8">
-                <a href="#work" class="font-display uppercase tracking-widest text-lg hover:text-lime transition-colors">Work</a>
+                <a href="#work" class="font-display uppercase tracking-widest text-lg hover:text-lime transition-colors">Projects</a>
                 <a href="#about" class="font-display uppercase tracking-widest text-lg hover:text-lime transition-colors">About</a>
                 <a href="#testimonials" class="font-display uppercase tracking-widest text-lg hover:text-lime transition-colors">Reviews</a>
                 <a href="#contact" class="bg-ink text-cream font-display uppercase tracking-widest px-5 py-2 text-lg hover:bg-lime hover:text-ink transition-colors">
@@ -38,7 +38,7 @@
         <div class="max-w-6xl mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <p class="font-display text-2xl uppercase tracking-widest">Studio Name</p>
+                    <p class="font-display text-2xl uppercase tracking-widest">KUBIK Creative</p>
                     <p class="mt-2 text-sm opacity-60">Photo & Film</p>
                 </div>
                 <div>
